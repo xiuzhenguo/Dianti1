@@ -20,6 +20,8 @@
 }
 
 -(void) setup {
+    // swudhwudwdw
+    
     NSArray *array = @[@"登出",@"修改密码"];
     self.btnArray = [[NSMutableArray alloc] init];
     for (int i = 0; i< 2; i++) {
@@ -29,7 +31,7 @@
         btn.backgroundColor = UIColorFromRGB(0x4bc7c7);
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self addSubview:btn];
-        btn.tag = 1000+i;
+//        btn.tag = 1000+i;
         [self.btnArray addObject:btn];
     }
     UILabel *line = [[UILabel alloc] initWithFrame:CGRectMake(KWindowWidth - 160, 42, 160, 1)];
