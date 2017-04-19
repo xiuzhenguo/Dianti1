@@ -1,0 +1,20 @@
+//
+//  DianTi-Prefix.pch
+//  DianTi
+//
+//  Created by 佘坦烨 on 16/11/28.
+//  Copyright © 2016年 bravedark. All rights reserved.
+//
+
+#ifndef DianTi_Prefix_pch
+#define DianTi_Prefix_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppConstant.h"
+#import "AppUnit.h"
+#import "UITableView+Refresh.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DianTi_Prefix_pch */
